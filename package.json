@@ -1,0 +1,19 @@
+{
+  "name": "picture_store",
+  "version": "1.0.1",
+  "description": "store Picture for analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "startService"
+  },
+  "author": "Tony",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mssql": "^12.2.0",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "pdfkit": "^0.17.2"
+  }
+}
